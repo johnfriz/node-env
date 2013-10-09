@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae0fdd1e-f3b9-4022-a3f2-414ecaff5248" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud/application.js" afterPath="$PROJECT_DIR$/cloud/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud/package.json" afterPath="$PROJECT_DIR$/cloud/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud/server.js" afterPath="$PROJECT_DIR$/cloud/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="node-env.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ae0fdd1e-f3b9-4022-a3f2-414ecaff5248" time="1381352796205" ignored="false" />
     <file path="/server.js" changelist="ae0fdd1e-f3b9-4022-a3f2-414ecaff5248" time="1381353095593" ignored="false" />
+    <file path="/.gitignore" changelist="ae0fdd1e-f3b9-4022-a3f2-414ecaff5248" time="1381353191919" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="54" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.8088235">
+            <state line="44" column="54" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="12" selection-start="0" selection-end="22" vertical-scroll-proportion="0.018382354">
               <folding />
             </state>
           </provider>
@@ -77,6 +84,7 @@
       <list>
         <option value="$PROJECT_DIR$/cloud/package.json" />
         <option value="$PROJECT_DIR$/cloud/server.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -303,7 +311,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="54" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.8088235">
+        <state line="44" column="54" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="0" selection-end="22" vertical-scroll-proportion="0.018382354">
           <folding />
         </state>
       </provider>
