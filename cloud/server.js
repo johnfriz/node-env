@@ -7,9 +7,13 @@ var url = require("url"),
   port = process.env.PORT || 8888;
 
 exports.render = function(request, response) {
+  console.log('in Render');
   var uri = url.parse(request.url).pathname,
     filename = path.join(process.cwd(), uri);
 
+  console.log('uri = ', uri);
+  console.log('filename = ', filename);
+  
   path.exists(filename, function (exists) {
     if (!exists) {
       response.writeHead(404, {
