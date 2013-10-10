@@ -15,6 +15,7 @@ exports.render = function(request, response) {
   console.log('filename = ', filename);
   
   path.exists(filename, function (exists) {
+    console.log('exists = ', exists);
     if (!exists) {
       response.writeHead(404, {
         "Content-Type": "text/plain"
@@ -26,6 +27,7 @@ exports.render = function(request, response) {
 
     if (uri == "/") {
       var t = path.join(filename, '/index.html');
+      console.log('t = ', t);
       var v = {
         env: [],
         sys: sysinfo.sysInfo()
@@ -38,7 +40,7 @@ exports.render = function(request, response) {
       }
 
       fs.readFile(t, 'utf8', function (err, data) {
-        //console.log('err:',err, ' : data:', data);
+        console.log('err:',err, ' : data:', data);
         var html = mustache.to_html(data, v);
         response.writeHead(200, {});
         response.write(html, "binary");
