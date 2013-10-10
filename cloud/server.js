@@ -8,10 +8,10 @@ var url = require("url"),
 
 exports.render = function(request, response) {
   console.log('in Render');
-  var uri = url.parse(request.url).pathname,
-    filename = path.join(process.cwd(), uri);
-
+  var uri = url.parse(request.url).pathname;
   console.log('uri = ', uri);
+  
+  var filename = path.join(process.cwd(), uri);
   console.log('filename = ', filename);
   
   path.exists(filename, function (exists) {
